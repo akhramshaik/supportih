@@ -210,3 +210,15 @@ body.tg-homefourteen .tg-sectiontitle:after
 
 
 {border-color: #ff4444;}
+
+.btn-facebook {
+   color: #fff;
+   background-color: #4C67A1;
+}
+.btn-facebook:hover {
+   color: #fff;
+   background-color: #405D9B;
+}
+.btn-facebook:focus {
+   color: #fff;
+}

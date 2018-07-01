@@ -21,6 +21,27 @@
 <script src="{{ asset('support/js/jquery.pogo-slider.js') }}"></script>
 <script src="{{ asset('support/js/canvasjs.min.js') }}"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afaf13d6327f847"></script>
+
+
+@if(Session::has('msg_ok'))
+<script type="text/javascript">
+$(document).ready(function(){
+$('#voted').modal('toggle');
+});
+</script>
+@endif
+
+
+@if(Session::has('user_voted'))
+<script type="text/javascript">
+$(document).ready(function(){
+$('#again').modal('toggle');
+});
+</script>
+@endif
+
+
+
 <script>
    window.onload = function () {
        CanvasJS.addColorSet("greenShades",
