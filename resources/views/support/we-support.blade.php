@@ -105,8 +105,8 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-push-1 col-lg-10">
                <div class="tg-videobox">
-                  <a class="tg-btnplayvideo" href="https://www.youtube.com/watch?v=3qyhgV0Zew0"><img src="images/icon-01.png" alt="image description"></a>
-                  <h2><em>Thausands of people</em><span>just waiting</span> for your help</h2>
+                  <a class="tg-btnplayvideo" target="_blank" href="https://www.facebook.com/groups/BabuGogineni/"><img src="images/icon-01.png" alt="image description"></a>
+                  <h2><em>For more updates join us</em><a style="color: white;" target="_blank" href="https://www.facebook.com/groups/BabuGogineni/"><span>Babu Gogineni FB Group</span></a></h2>
                </div>
             </div>
          </div>
