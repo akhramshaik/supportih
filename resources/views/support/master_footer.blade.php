@@ -12,14 +12,15 @@
 
 </div>
 
-<script src="{{ asset('support/js/vendor/jquery-library.js') }}"></script>
-<script src="{{ asset('support/js/vendor/bootstrap.min.js') }}"></script>
-<script src="{{ asset('support/js/jgallery.min.js') }}"></script>
-<script src="{{ asset('support/js/scrollbar.min.js') }}"></script>
-<script src="{{ asset('support/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('support/js/main.js') }}"></script>
-<script src="{{ asset('support/js/jquery.pogo-slider.js') }}"></script>
-<script src="{{ asset('support/js/canvasjs.min.js') }}"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jquery-library.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/bootstrap.min.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jgallery.min.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/scrollbar.min.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/owl.carousel.min.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/main.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jquery.pogo-slider.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/canvasjs.min.js"></script>
+
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afaf13d6327f847"></script>
 
 
@@ -40,7 +41,14 @@ $('#again').modal('toggle');
 </script>
 @endif
 
-
+<script>
+function blinker()
+{
+$('.blink_me').hide(500);
+$('.blink_me').show(500);
+}
+// setInterval(blinker,1000);
+</script>
 
 <script>
    window.onload = function () {

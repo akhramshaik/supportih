@@ -403,7 +403,7 @@ li.tg-rss a { background:#ff6600; }
 }
 .tg-bgfixedgetinvolved{background: url(../images/parallax/bgparallax-01.jpg) no-repeat 50% 50% fixed;}
 .tg-bgfixedgetinvolvedvtwo{background: url(../images/parallax/bgparallax-12.jpg) no-repeat 50% 50% fixed;}
-.tg-bgfixedfloatdonation{background: url(../images/parallax/bgparallax-02.jpg) no-repeat 50% 50% fixed;}
+.tg-bgfixedfloatdonation{background: url('https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_slider.jpg') no-repeat 50% 50% fixed;}
 .tg-bgfixedfloatdonationvtwo{background: url(../images/parallax/bgparallax-14.jpg) no-repeat 50% 50% fixed;}
 .tg-bgfixedfloatdonationvthree{background: url(../images/parallax/bgparallax-15.jpg) no-repeat 50% 50% fixed;}
 .tg-bgfixededucation{background: url(../images/parallax/bgparallax-03.jpg) no-repeat 50% 50% fixed;}

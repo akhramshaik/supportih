@@ -26,6 +26,16 @@ class MainController extends Controller
 
 
 
+
+
+
+public function home(){
+	return view('support.home');
+}
+
+
+
+
 public function wesupport(){
 
 

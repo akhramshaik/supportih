@@ -4,7 +4,7 @@
 <div id="tg-homeslidervtwo" class="tg-homeslider tg-homeslidervtwo owl-carousel">
    <div class="item">
       <figure>
-         <img src="images/slider/img-06.jpg" alt="image description">
+         <img src="https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg" alt="image description">
          <figcaption>
             <div class="container">
                <div class="row">

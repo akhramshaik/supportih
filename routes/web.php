@@ -13,7 +13,7 @@
 
 
 
-Route::get('/', ['as'=>'home', 'uses'=>'MainController@wesupport']);
+Route::get('/', ['as'=>'home', 'uses'=>'MainController@home']);
 Route::get('/we-support-babu-gogineni', ['as'=>'wesupport', 'uses'=>'MainController@wesupport']);
 Route::get('/i-am-with-babu-gogineni', ['as'=>'vote', 'uses'=>'MainController@vote']);
 Route::get('/about-babu-gogineni', ['as'=>'about', 'uses'=>'MainController@about']);
