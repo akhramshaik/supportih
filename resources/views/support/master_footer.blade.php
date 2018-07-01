@@ -19,20 +19,21 @@
 
     <script src="{{ asset('support/js/vendor/jquery-library.js') }}"></script>
     <script src="{{ asset('support/js/vendor/bootstrap.min.js') }}"></script>
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&language=en"></script>
-    <script src="{{ asset('support/js/YouTubePopUp.jquery.js') }}"></script>
-    <script src="{{ asset('support/js/jquery.pogo-slider.js') }}"></script>
-    <script src="{{ asset('support/js/plotly-latest.min.js') }}"></script>
-    <script src="{{ asset('support/js/backgroundstretch.js') }}"></script>
-    <script src="{{ asset('support/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('support/js/magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('support/js/scrollbar.min.js') }}"></script>
-    <script src="{{ asset('support/js/canvasjs.min.js') }}"></script>
     <script src="{{ asset('support/js/jgallery.min.js') }}"></script>
-    <script src="{{ asset('support/js/numeric.min.js') }}"></script>
-    <script src="{{ asset('support/js/countdown.js') }}"></script>
-    <script src="{{ asset('support/js/gmap3.js') }}"></script>
+    <script src="{{ asset('support/js/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('support/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('support/js/main.js') }}"></script>
+    <script src="{{ asset('support/js/jquery.pogo-slider.js') }}"></script>
+    <script src="{{ asset('support/js/canvasjs.min.js') }}"></script>
+
+    
+    <!-- <script src="{{ asset('support/js/YouTubePopUp.jquery.js') }}"></script> -->
+    <!-- <script src="{{ asset('support/js/plotly-latest.min.js') }}"></script> -->
+    <!-- <script src="{{ asset('support/js/backgroundstretch.js') }}"></script> -->
+    <!-- <script src="{{ asset('support/js/magnific-popup.min.js') }}"></script> -->
+    <!-- <script src="{{ asset('support/js/numeric.min.js') }}"></script> -->
+    <!-- <script src="{{ asset('support/js/countdown.js') }}"></script> -->
+    <!-- <script src="{{ asset('support/js/gmap3.js') }}"></script> -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afaf13d6327f847"></script>
     <script>
         window.onload = function () {
