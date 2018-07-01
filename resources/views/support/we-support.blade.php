@@ -1,5 +1,6 @@
 @extends('support.master')
 @section('content')
+
 <div id="tg-homeslidervtwo" class="tg-homeslider tg-homeslidervtwo owl-carousel">
    <div class="item">
       <figure>
@@ -174,4 +175,5 @@
       </div>
    </section>
 </main>
+
 @endsection
