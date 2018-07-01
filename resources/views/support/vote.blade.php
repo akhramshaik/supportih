@@ -11,7 +11,7 @@
                      <div class="tg-sectiontitle">
                         <h2>Support now</h2>
                      </div>
-                     <form class="tg-themeform tg-formdonation" action="{{ route('vote') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
+                     <form class="tg-themeform tg-formdonation" action="{{ route('voteprocess') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
                         <fieldset>
                            <div class="tg-donationstep">
                               <div class="tg-steptitle">
