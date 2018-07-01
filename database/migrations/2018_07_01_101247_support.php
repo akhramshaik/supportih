@@ -16,6 +16,11 @@ class Support extends Migration
 
         Schema::create('bg_votes', function (Blueprint $table) {
             $table->increments('userId');
+            $table->string('userName');
+            $table->string('userOccupation');
+            $table->string('userEmail');
+            $table->string('userMobile');
+            $table->longText('userMsg');
             $table->string('userIp');
             $table->string('userCity');
             $table->string('userPincode');
@@ -37,3 +42,5 @@ class Support extends Migration
         //
     }
 }
+
+

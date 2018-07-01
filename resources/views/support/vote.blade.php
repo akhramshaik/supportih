@@ -11,7 +11,7 @@
                      <div class="tg-sectiontitle">
                         <h2>Support now</h2>
                      </div>
-                     <form class="tg-themeform tg-formdonation">
+                     <form class="tg-themeform tg-formdonation" action="{{ route('vote') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
                         <fieldset>
                            <div class="tg-donationstep">
                               <div class="tg-steptitle">
@@ -19,22 +19,22 @@
                               </div>
                               <div class="tg-fieldgroup">
                                  <div class="form-group">
-                                    <input type="text" name="firstname" class="form-control" placeholder="Full Name">
+                                    <input type="text" name="fullname" class="form-control" required="" placeholder="Full Name">
                                  </div>
                                  <div class="form-group">
-                                    <input type="text" name="occupation" class="form-control" placeholder="Occupation ">
+                                    <input type="text" name="occupation" class="form-control" required="" placeholder="Occupation ">
                                  </div>
                                  <div class="form-group">
-                                    <input type="email" name="emailid" class="form-control" placeholder="Email ID">
+                                    <input type="email" name="emailid" class="form-control" required="" placeholder="Email ID">
                                  </div>
                                  <div class="form-group">
-                                    <input type="text" name="phone" class="form-control" placeholder="Phone">
+                                    <input type="text" name="phone" class="form-control" required="" placeholder="Phone">
                                  </div>
                                  <div class="form-group">
                                     <textarea name="message" class="form-control" placeholder="Message ( Optional )"></textarea>
                                  </div>
                               </div>
-                              <button class="tg-btn" type="button">Submit</button>
+                              <button class="tg-btn" type="submit">Submit</button>
                            </div>
                            <p style="color: #e87e7e;font-size: 10px;"> * Information collected here is completely for non commertial use and no where realted to babu gogineni...this information is seccured and safe using encrypted algorithms under high secured environmnet</p>
                         </fieldset>

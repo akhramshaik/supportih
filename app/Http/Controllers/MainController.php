@@ -17,6 +17,9 @@ use Config;
 use Log;
 use GeoIP;
 
+use App\Support;
+use App\Visit;
+
 
 class MainController extends Controller
 {
@@ -50,6 +53,9 @@ public function television(){
 	return view('support.media');
 }
 
+
+
+// vote
 
 
 }
