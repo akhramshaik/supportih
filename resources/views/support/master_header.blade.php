@@ -1,6 +1,4 @@
-        <!--************************************
-                Header Start
-        *************************************-->
+
         <header id="tg-header" class="tg-header tg-headervtwo tg-haslayout">
 
             <div class="tg-navigationarea">
