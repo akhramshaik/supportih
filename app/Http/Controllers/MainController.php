@@ -83,6 +83,9 @@ public function voteprocess(Request $request){
 	$location = GeoIP::getLocation( );
     date_default_timezone_set("Asia/Kolkata");
 
+    if(is_null($request['message'])){
+    	$request['message'] = 'Message';
+    }
 
 	$arrayData = ['userName' => $request['fullname'],
 	              'userOccupation' => $request['occupation'],

@@ -81,7 +81,7 @@
                         <h2>Support now</h2>
                      </div>
 
-                     <form class="tg-themeform tg-formdonation" action="{{ route('voteprocess') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
+                     <form  class="tg-themeform tg-formdonation" action="{{ route('voteprocess') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
                         <fieldset>
                            <div class="tg-donationstep">
                               <div class="tg-steptitle">
@@ -89,19 +89,19 @@
                               </div>
                               <div class="tg-fieldgroup">
                                  <div class="form-group">
-                                    <input type="text" name="fullname" class="form-control" required="" placeholder="Full Name">
+                                    <input type="text" name="fullname" class="form-control" required="" autocomplete="off" placeholder="Full Name">
                                  </div>
                                  <div class="form-group">
-                                    <input type="text" name="occupation" class="form-control" required="" placeholder="Occupation ">
+                                    <input type="text" name="occupation" class="form-control" required="" autocomplete="off" placeholder="Occupation ">
                                  </div>
                                  <div class="form-group">
-                                    <input type="email" name="emailid" class="form-control" required="" placeholder="Email ID">
+                                    <input type="email" name="emailid" class="form-control" required="" autocomplete="off" placeholder="Email ID">
                                  </div>
                                  <div class="form-group">
-                                    <input type="text" name="phone" class="form-control" required="" placeholder="Phone">
+                                    <input type="text" name="phone" class="form-control" required="" autocomplete="off" placeholder="Phone">
                                  </div>
                                  <div class="form-group">
-                                    <textarea name="message" class="form-control" placeholder="Message ( Optional )"></textarea>
+                                    <textarea name="message" class="form-control" autocomplete="off" placeholder="Message ( Optional )"></textarea>
                                  </div>
 
 
