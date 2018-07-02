@@ -19,16 +19,16 @@
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
                <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-               <link rel="stylesheet" href="{{ asset('support/css/bootstrap.min.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/font-awesome.min.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/main.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/color.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/owl.carousel.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/normalize.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/responsive.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/transitions.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/animate.css') }}">
-               <link rel="stylesheet" href="{{ asset('support/css/scrollbar.css') }}">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/bootstrap.min.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/font-awesome.min.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/main.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/color.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/owl.carousel.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/normalize.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/responsive.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/transitions.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/animate.css">
+               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/scrollbar.css">
                <script src="{{ asset('support/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
             </head>
             <body class="tg-hometwo">

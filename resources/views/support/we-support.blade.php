@@ -79,6 +79,22 @@
                   </div>
                </div>
             </div>
+
+
+
+            <div class="row">
+               <div class="col-lg-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/_XnTY17HV4M?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               </div>
+               <div class="col-lg-6">
+                  <iframe width="560" height="315"  src="https://www.youtube.com/embed/Yl6LR9DaPgw?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               </div>
+            </div>
+            <br>
+            <br>
+
+            
+
             <div class="row">
                <div class="col-lg-6">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/85iY7hvbEIo?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
