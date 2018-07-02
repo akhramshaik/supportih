@@ -120,5 +120,6 @@
       </div>
    </div>
 </main>
+<input type="hidden" id="tg-donutchart" name="">
 
 @endsection

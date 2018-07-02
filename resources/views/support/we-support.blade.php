@@ -1,6 +1,5 @@
 @extends('support.master')
 @section('content')
-
 <div id="tg-homeslidervtwo" class="tg-homeslider tg-homeslidervtwo owl-carousel">
    <div class="item">
       <figure>
@@ -66,6 +65,13 @@
          </div>
       </div>
    </section>
+
+   <style type="text/css">
+      .foryou{
+         padding-left: 10px;
+         padding-right: 10px;
+      }
+   </style>
    <section class="tg-sectionspace tg-haslayout">
       <div class="container">
          <div class="row">
@@ -79,38 +85,46 @@
                   </div>
                </div>
             </div>
-
-
-
             <div class="row">
-               <div class="col-lg-6">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/_XnTY17HV4M?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-               </div>
-               <div class="col-lg-6">
-                  <iframe width="560" height="315"  src="https://www.youtube.com/embed/Yl6LR9DaPgw?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <div class="tg-educationposts">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
+                     <div class="tg-educationpost">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_XnTY17HV4M?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
+                     <div class="tg-educationpost">
+                        <iframe width="560" height="315"  src="https://www.youtube.com/embed/Q7UC7U9vpH8?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     </div>
+                  </div>
                </div>
             </div>
-            <br>
-            <br>
-
-            
-
             <div class="row">
-               <div class="col-lg-6">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/85iY7hvbEIo?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-               </div>
-               <div class="col-lg-6">
-                  <iframe width="560" height="315"  src="https://www.youtube.com/embed/Yl6LR9DaPgw?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <div class="tg-educationposts">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
+                     <div class="tg-educationpost">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/85iY7hvbEIo?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
+                     <div class="tg-educationpost">
+                        <iframe width="560" height="315"  src="https://www.youtube.com/embed/Yl6LR9DaPgw?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     </div>
+                  </div>
                </div>
             </div>
-            <br>
-            <br>
             <div class="row">
-               <div class="col-lg-6">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/CPmFwNXq1FU?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-               </div>
-               <div class="col-lg-6">
-                  <iframe width="560" height="315"  src="https://www.youtube.com/embed/9HPlpgEm7I0?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <div class="tg-educationposts">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
+                     <div class="tg-educationpost">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CPmFwNXq1FU?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
+                     <div class="tg-educationpost">
+                        <iframe width="560" height="315"  src="https://www.youtube.com/embed/9HPlpgEm7I0?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
@@ -191,5 +205,4 @@
       </div>
    </section>
 </main>
-
 @endsection

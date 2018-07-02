@@ -21,7 +21,7 @@
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
                <link rel="icon" href="images/favicon.ico" type="image/x-icon">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/bootstrap.min.css">
-               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/font-awesome.min.css">
+               <link rel="stylesheet" href="{{ asset('support/css/font-awesome.min.css') }}">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/main.css">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/color.css">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/owl.carousel.css">
@@ -67,7 +67,7 @@
                <div class="tg-leftbox">
                   <span>Follow us:</span>
                   <ul class="tg-socialicons tg-socialiconsborder">
-                     <li class="tg-facebook"><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                     <li class="tg-facebook"><a target="_blank" href="https://www.facebook.com/IndianHumanistsOfficial/"><i class="fa fa-facebook"></i></a></li>
                   </ul>
                </div>
             </div>
@@ -76,18 +76,11 @@
                   <div class="row">
                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-push-1">
                         <img src="{{ asset('support/images/ihlogo.jpg') }}" style="height: 150px" alt="image description">
-                        <h2>We’re coming very soon...</h2>
+                        <h2>We’re coming very soon.</h2>
                         <div class="tg-description">
-                           <p>Consectetur adipisicing elit, sedamisi eiuse tempor incididunt labore etaei dolore enim adminim nostrud exercitation ut aliquip ex ea commodo consequat aute irure.</p>
+                           <p>Horoscope or Telescope - Choose, India, Choose!</p>
                         </div>
-                        <div class="tg-signuparea">
-                           <form class="tg-formtheme tg-formnewsletter">
-                              <fieldset>
-
-                                 <button type="submit" class="tg-btn">Signup</button>
-                              </fieldset>
-                           </form>
-                        </div>
+ 
                      </div>
                   </div>
                </div>
@@ -101,7 +94,7 @@
                </div>
          </div>
       </main>
-
+      <input type="hidden" id="tg-donutchart" name="">
                @include('support.master_footer')
             </body>
          </html>
