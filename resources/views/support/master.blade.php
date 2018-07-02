@@ -20,7 +20,7 @@
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
                <link rel="icon" href="images/favicon.ico" type="image/x-icon">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/bootstrap.min.css">
-               <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/font-awesome.min.css">
+               <link rel="stylesheet" href="{{ asset('support/css/font-awesome.min.css') }}">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/main.css">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/color.css">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/owl.carousel.css">
