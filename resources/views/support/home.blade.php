@@ -71,29 +71,52 @@
                   </ul>
                </div>
             </div>
-            <div class="tg-comingsooncontent" style="padding: 100px 0 0;">
+            <div class="tg-comingsooncontent" style="padding: 0 0 0 0;">
                <div class="container">
                   <div class="row">
                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-push-1">
                         <img src="{{ asset('support/images/ihlogo.jpg') }}" style="height: 150px" alt="image description">
-                        <h2>We’re coming very soon.</h2>
+                        <h3>We’re coming very soon.</h3>
                         <div class="tg-description">
-                           <p>Horoscope or Telescope - Choose, India, Choose!</p>
                         </div>
  
                      </div>
                   </div>
                </div>
             </div>
-            <div class="tg-csgallery">
-                  <div class="container-fluid">
-                     <div class="row">
 
+
+<div class="row">
+                  <div class="tg-videoplusgreeting" style="padding-top: 60px;">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 tg-verticalmiddle">
+                        <div class="tg-vieoshortcode">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_XnTY17HV4M?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 tg-verticalmiddle">
+                        <div class="tg-textshortcode">
+                           <div class="tg-sectiontitle">
+                              <h2>We Support Babu Gogineni </h2>
+                           </div>
+                           <div class="tg-description">
+                           <p>Horoscope or Telescope - Choose, India, Choose!</p>
+                           </div>
+                           <div class="tg-aboutauthor">
+                                    <a class="tg-btn tg-btnactive bbb " href="{{ route('wesupport') }}"> Click here to Support BG</a>
+
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
+
          </div>
+
+
       </main>
+
+
       <input type="hidden" id="tg-donutchart" name="">
                @include('support.master_footer')
             </body>
