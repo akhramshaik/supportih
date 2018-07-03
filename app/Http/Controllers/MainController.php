@@ -53,29 +53,30 @@ public function wesupport(){
 	    $createVisit = Visit::create($arrayData);
 
 
+	    $voteCount = Support::count();
 
 
-       
-
-
-
-	return view('support.we-support');
+	return view('support.we-support')->with('voteCount',$voteCount);
 }
 
 public function about(){
-	return view('support.about');
+	$voteCount = Support::count();
+	return view('support.about')->with('voteCount',$voteCount);
 }
 
 public function vote(){
-	return view('support.vote');
+	$voteCount = Support::count();
+	return view('support.vote')->with('voteCount',$voteCount);
 }
 
 public function faq(){
-	return view('support.faq');
+	$voteCount = Support::count();
+	return view('support.faq')->with('voteCount',$voteCount);
 }
 
 public function television(){
-	return view('support.media');
+	$voteCount = Support::count();
+	return view('support.media')->with('voteCount',$voteCount);
 }
 
 

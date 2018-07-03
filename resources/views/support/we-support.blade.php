@@ -57,8 +57,9 @@
                <div class="tg-floatdonations">
                   <div id="tg-donutchart" class="tg-donutchart"></div>
                   <ul class="tg-graphinfo">
-                     <li class="tg-spendcauses"><span>1,00,000 Our Target </span></li>
-                     <li class="tg-administration"><span>5000 Supported </span></li>
+                     <li class="tg-administration"><span>2,00,000 Our Target</span></li>
+                     <li class="tg-spendcauses"><span> {{ $voteCount }} Supported</span></li>
+
                   </ul>
                </div>
             </div>

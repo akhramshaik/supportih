@@ -63,6 +63,7 @@ $('#again').modal('toggle');
                "#ff4444",
                "#99cc00",
            ]);
+
        var chart = new CanvasJS.Chart("tg-donutchart", {
            animationEnabled: true,
            backgroundColor:"rgba(0,0,0,0)",
@@ -72,8 +73,8 @@ $('#again').modal('toggle');
                startAngle: 10,
                indexLabelFontSize: 17,
                dataPoints: [
-                   { y: 5},
-                   { y: 80}
+                   { y: 200000 },
+                   { y: '{{ $voteCount }}' }
                ]
            }]
        });
