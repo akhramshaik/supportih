@@ -78,7 +78,7 @@
 
 
                      <div class="tg-sectiontitle">
-                        <h2>Support now</h2>
+                        <h2>Your Vote is Your Voice</h2>
                      </div>
 
                      <form  class="tg-themeform tg-formdonation" action="{{ route('voteprocess') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
@@ -110,7 +110,7 @@
                               <input type="hidden" id="csrf-token" value="{{csrf_token()}}" name="_token">
                               <button class="tg-btn" type="submit">Submit</button>
                            </div>
-                           <p style="color: #e87e7e;font-size: 10px;"> * Information collected here is completely for non commertial use and no where realted to babu gogineni...this information is seccured and safe using encrypted algorithms under high secured environmnet</p>
+                           <p style="color: #e87e7e;font-size: 10px;"> * Information collected here is purely for a cause and not for any commertial use. This is an initiative of Babu Gogineni Facebook Group and no where in direct relation with Babu Gogineni. This information is seccured and safe using encrypted algorithms under high secured environmnet.</p>
                         </fieldset>
                      </form>
                   </div>

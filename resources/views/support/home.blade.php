@@ -103,7 +103,7 @@
                            <p>Horoscope or Telescope - Choose, India, Choose!</p>
                            </div>
                            <div class="tg-aboutauthor">
-                                    <a class="tg-btn tg-btnactive bbb " href="{{ route('wesupport') }}"> Click here to Support BG</a>
+                                    <a class="tg-btn tg-btnactive bbb " href="{{ route('wesupport') }}"> <span class="blinkme"> Click here to Support BG <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </span></a>
 
                            </div>
                         </div>
