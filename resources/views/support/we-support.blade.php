@@ -46,7 +46,7 @@
             <div class="col-xs-12 col-sm-12 col-md-push-2 col-md-8 col-lg-push-2 col-lg-8">
                <div class="tg-sectionheadvtwo tg-colorwhite text-center">
                   <div class="tg-sectiontitle">
-                     <h2>How we float <span>donations</span></h2>
+                     <h2>Your Vote is <span> Your Voice</span></h2>
                   </div>
                   <div class="tg-description">
                      <p>Consectetur adipisicing elit, sed do eismod tempor incididnt ut labore etaei dolore magaliqua enim ad minim veniam quis nostrud exercitation ut aliquip commodo.</p>
@@ -78,7 +78,7 @@
             <div class="col-xs-12 col-sm-12 col-md-push-2 col-md-8 col-lg-push-2 col-lg-8">
                <div class="tg-sectionheadvtwo text-center">
                   <div class="tg-sectiontitle">
-                     <h2>Videos Here <span>help us</span></h2>
+                     <h2>Loud and <span>Clear</span></h2>
                   </div>
                   <div class="tg-description">
                      <p>Consectetur adipisicing elit, sed do eismod tempor incididnt ut labore etaei dolore magaliqua enim ad minim veniam quis nostrud exercitation ut aliquip commodo.</p>

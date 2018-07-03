@@ -42,13 +42,18 @@ $('#again').modal('toggle');
 @endif
 
 <script>
-function blinker()
-{
-$('.blink_me').hide(500);
-$('.blink_me').show(500);
-}
-// setInterval(blinker,1000);
+  function blinker()
+  {
+    $('.blinkme').fadeOut(500);
+    $('.blinkme').fadeIn(500);
+  }
+
+  $(document).ready(function(){
+    setInterval(blinker,1000);
+  });
 </script>
+
+
 
 <script>
    window.onload = function () {
