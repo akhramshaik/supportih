@@ -91,7 +91,7 @@
                                     <h2>We Support Babu Gogineni </h2>
                                  </div>
                                  <div class="tg-description">
-                                    <p>Horoscope or Telescope - Choose, India, Choose!</p>
+                                    <p>Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.</p>
                                  </div>
                                  <div class="tg-aboutauthor">
                                     <a class="tg-btn tg-btnactive bbb " href="{{ route('wesupport') }}"> <span class="blinkme"> Click here to Support BG <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </span></a>

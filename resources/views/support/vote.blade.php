@@ -12,11 +12,23 @@
                         Sorry... Something went wrong. Please try again later.
                      </div>
                      @endif
+
+
+<div class="fb-share-button" data-href="https://www.indianhumanists.org/we-support-babu-gogineni" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.indianhumanists.org%2Fwe-support-babu-gogineni&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+
+
+<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('https://www.indianhumanists.org/we-support-babu-gogineni'),'facebook-share-dialog','width=626,height=436');return false;">Share on Facebook</a>
+
+                     <a href="http://www.facebook.com/share.php?u=" onclick="return fbs_click()" target="_blank"><img src="ADD_IMAGE_URL_HERE" alt="Share on Facebook" /></a>
+
+
+
                      <div id="voted" class="modal fade" role="dialog">
                         <div class="modal-dialog" style="margin-top: 125px;">
                            <?php 
                               $title = urlencode("I Support Babu Gogineni - Your Vote is Your Voice.");
-                              $url = urlencode("https://indianhumanists.org/we-support-babu-gogineni");
+                              $url = urlencode("https://www.indianhumanists.org/we-support-babu-gogineni");
                               $summary = urlencode("Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.");
                               $image = urlencode("https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg");
                               ?>
@@ -45,7 +57,7 @@
                         <div class="modal-dialog" style="margin-top: 125px;">
                            <?php 
                               $title = urlencode("I Support Babu Gogineni - Your Vote is Your Voice.");
-                              $url = urlencode("https://indianhumanists.org/we-support-babu-gogineni");
+                              $url = urlencode("https://www.indianhumanists.org/we-support-babu-gogineni");
                               $summary = urlencode("Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.");
                               $image = urlencode("https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg");
                               ?>
@@ -60,7 +72,7 @@
                                  </center>
                                  <center>
                                     <h3>Share this initiative with your friends.</h3>
-                                    <a onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?php echo $title;?>&amp;p[summary]=<?php echo $summary;?>&amp;p[url]=<?php echo $url; ?>&amp;&p[images][0]=<?php echo $image;?>', 'sharer', 'toolbar=0,status=0,width=620,height=280');" href="javascript: void(0)"> 
+                                    <a onclick="window.open('https://www.facebook.com/sharer.php?u=<?php echo $url; ?>&t=<?php echo $title; ?>', 'sharer', 'toolbar=0,status=0,width=620,height=280');" href="javascript: void(0)"> 
                                     <button style="width:100%; margin-top:10px;" type="button" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-2"></i> Share on Facebook</button></a>
                                  </center>
                               </div>
