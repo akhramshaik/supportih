@@ -1,6 +1,5 @@
 @extends('support.master')
 @section('content')
-
 <main id="tg-main" class="tg-main tg-haslayout">
    <div class="container">
       <div class="row">
@@ -61,5 +60,4 @@
    </div>
 </main>
 <input type="hidden" id="tg-donutchart" name="">
-
 @endsection

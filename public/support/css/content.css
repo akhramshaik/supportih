@@ -110,7 +110,7 @@
 }
 .tg-sectionheadvtwo .tg-sectiontitle{
 	margin: 0;
-	padding: 0 0 40px;
+	padding: 0 0 25px;
 }
 .tg-sectionheadvtwo .tg-sectiontitle:before{display: none;}
 .tg-sectionheadvtwo .tg-sectiontitle h2 span{
@@ -1087,7 +1087,7 @@
 	height: 120px;
 	overflow: hidden;
 	border-radius: 50%;
-	margin: 48px 65px 48px 0;
+	margin: 48px 40px 48px 0;
 }
 .tg-btnplayvideo img{display: block;}
 .tg-videobox h2{

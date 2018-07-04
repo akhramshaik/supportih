@@ -9,7 +9,6 @@
                <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-10 col-lg-push-2 col-lg-8">
                      <div class="tg-slidercontent">
-                        <!-- <h1>Reason, <em>Not Religion.</em></h1> -->
                         <div class="tg-description">
                            <p> Democracy needs Dialogue not Dogma - 
                               <a href="{{ route('about') }}">Babu Gogineni</a>
@@ -27,13 +26,15 @@
    <section class="tg-sectionspace tg-haslayout">
       <div class="container">
          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-push-2 col-md-8 col-lg-push-2 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                <div class="tg-sectionheadvtwo text-center">
                   <div class="tg-sectiontitle">
                      <h2> Horoscope or <span>Telescope</span></h2>
                   </div>
                   <div class="tg-description">
-                     <p>Here goes small description of this campain and its objectivee.....make it very short.....ncididnt ut labore etaei dolore magaliqua enim ad minim veniam quis nostrud exercitation ut aliquip commodo.</p>
+                     <p style="color: black">
+                        Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.
+                     </p>
                   </div>
                </div>
             </div>
@@ -49,7 +50,8 @@
                      <h2>Your Vote is <span> Your Voice</span></h2>
                   </div>
                   <div class="tg-description">
-                     <p>Consectetur adipisicing elit, sed do eismod tempor incididnt ut labore etaei dolore magaliqua enim ad minim veniam quis nostrud exercitation ut aliquip commodo.</p>
+                     <p>Let us put an end to the assumption that we are only a few. Make your voice heard.
+                     </p>
                   </div>
                </div>
             </div>
@@ -59,30 +61,30 @@
                   <ul class="tg-graphinfo">
                      <li class="tg-administration"><span>2,00,000 Our Target</span></li>
                      <li class="tg-spendcauses"><span> {{ $voteCount }} Supported</span></li>
-
                   </ul>
                </div>
             </div>
          </div>
       </div>
    </section>
-
    <style type="text/css">
       .foryou{
-         padding-left: 10px;
-         padding-right: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
       }
    </style>
    <section class="tg-sectionspace tg-haslayout">
       <div class="container">
          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-push-2 col-md-8 col-lg-push-2 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                <div class="tg-sectionheadvtwo text-center">
                   <div class="tg-sectiontitle">
-                     <h2>Loud and <span>Clear</span></h2>
+                     <h2>Allegations - <span> But where are the proofs? </span></h2>
                   </div>
                   <div class="tg-description">
-                     <p>Consectetur adipisicing elit, sed do eismod tempor incididnt ut labore etaei dolore magaliqua enim ad minim veniam quis nostrud exercitation ut aliquip commodo.</p>
+                     <p>
+                        As part of a larger conspiracy, many baseless accusations and made up stories are being circulated on the social media for the past few weeks. But, to date, NOT EVEN a SINGLE piece of evidence has been produced to support those allegations! Watch how some of our learned friends responded to the false accusations against Babu Gogineni.
+                     </p>
                   </div>
                </div>
             </div>
@@ -137,13 +139,13 @@
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-push-1 col-lg-10">
                <div class="tg-videobox">
                   <a class="tg-btnplayvideo" target="_blank" href="https://www.facebook.com/groups/BabuGogineni/"><img src="images/icon-01.png" alt="image description"></a>
-                  <h2><em>For more updates join us</em><a style="color: white;" target="_blank" href="https://www.facebook.com/groups/BabuGogineni/"><span>Babu Gogineni FB Group</span></a></h2>
+                  <h2><em>For more updates join us on </em><a style="color: white;" target="_blank" href="https://www.facebook.com/groups/BabuGogineni/"><span>Babu Gogineni FB Group</span></a></h2>
                </div>
             </div>
          </div>
       </div>
    </section>
-   <section class="tg-sectionspace tg-haslayout" style="padding-bottom: 0px;">
+<!--    <section class="tg-sectionspace tg-haslayout" style="padding-bottom: 0px;">
       <div class="container">
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-push-2 col-md-8 col-lg-push-2 col-lg-8">
@@ -204,6 +206,6 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
 </main>
 @endsection
