@@ -96,9 +96,9 @@
                                     <textarea name="message" class="form-control" autocomplete="off" placeholder="Message ( Optional )"></textarea>
                                  </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
    {!! Recaptcha::render() !!}
-</div>
+</div> -->
 
                               </div>
                               <input type="hidden" id="csrf-token" value="{{csrf_token()}}" name="_token">

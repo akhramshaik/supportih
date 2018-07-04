@@ -63,14 +63,14 @@ class MainController extends Controller
 	public function voteprocess(Request $request){
 
 
-		$validator = Validator::make($request->all(), [
-			'g-recaptcha-response' => 'required|recaptcha',
-        ]);
+		// $validator = Validator::make($request->all(), [
+		// 	'g-recaptcha-response' => 'required|recaptcha',
+  //       ]);
 
-        if ($validator->fails()) {
-	        Session::flash('chk_msg', 'Warning! Something went wrong. Try again later.'); 
-            return redirect(route('vote'))->withErrors($validator, 'chk_msg');
-        }
+  //       if ($validator->fails()) {
+	 //        Session::flash('chk_msg', 'Warning! Something went wrong. Try again later.'); 
+  //           return redirect(route('vote'))->withErrors($validator, 'chk_msg');
+  //       }
 
 
 
