@@ -23,6 +23,7 @@
                <meta property="og:title"         content="I Support Babu Gogineni - Indian Humanists" />
                <meta property="og:description"   content="Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward." />
                <meta property="og:image"         content="https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg" />
+               <meta property="fb:app_id" content="168852203812285" />
                <meta name="google-site-verification" content="4ywCg1gMpp-F81vZmvm6wpH0n9JKhZzJra7QdkUbnjQ" />
 
                <link rel="apple-touch-icon" href="apple-touch-icon.png">

@@ -46,15 +46,6 @@
                            </div>
                         </div>
                      </div>
-                           <?php 
-                              $title = urlencode("I Support Babu Gogineni - Your Vote is Your Voice.");
-                              $url = urlencode("https://www.indianhumanists.org");
-                              $summary = urlencode("Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.");
-                              $image = urlencode("https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg");
-                              ?>
-                     <div class="fb-share-button" data-href="https://indianhumanists.org" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[title]=<?php echo $title;?>&amp;p[summary]=<?php echo $summary;?>&amp;p[url]=<?php echo $url; ?>&amp;&p[images][0]=<?php echo $image;?>&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-
                      <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#again">Open Modal</button> -->
                      <div id="again" class="modal fade" role="dialog">
                         <div class="modal-dialog" style="margin-top: 125px;">
