@@ -14,13 +14,7 @@
                      @endif
 
 
-<div class="fb-share-button" data-href="https://www.indianhumanists.org/we-support-babu-gogineni" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.indianhumanists.org%2Fwe-support-babu-gogineni&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
-
-
-<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('https://www.indianhumanists.org/we-support-babu-gogineni'),'facebook-share-dialog','width=626,height=436');return false;">Share on Facebook</a>
-
-                     <a href="http://www.facebook.com/share.php?u=" onclick="return fbs_click()" target="_blank"><img src="ADD_IMAGE_URL_HERE" alt="Share on Facebook" /></a>
 
 
 
@@ -28,7 +22,7 @@
                         <div class="modal-dialog" style="margin-top: 125px;">
                            <?php 
                               $title = urlencode("I Support Babu Gogineni - Your Vote is Your Voice.");
-                              $url = urlencode("https://www.indianhumanists.org/we-support-babu-gogineni");
+                              $url = urlencode("https://www.indianhumanists.org");
                               $summary = urlencode("Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.");
                               $image = urlencode("https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg");
                               ?>
@@ -52,12 +46,12 @@
                            </div>
                         </div>
                      </div>
-                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#again">Open Modal</button>
+                     <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#again">Open Modal</button> -->
                      <div id="again" class="modal fade" role="dialog">
                         <div class="modal-dialog" style="margin-top: 125px;">
                            <?php 
                               $title = urlencode("I Support Babu Gogineni - Your Vote is Your Voice.");
-                              $url = urlencode("https://www.indianhumanists.org/we-support-babu-gogineni");
+                              $url = urlencode("https://www.indianhumanists.org");
                               $summary = urlencode("Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.");
                               $image = urlencode("https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg");
                               ?>
