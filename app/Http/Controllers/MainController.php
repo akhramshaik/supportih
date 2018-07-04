@@ -61,6 +61,19 @@ class MainController extends Controller
 
 
 	public function voteprocess(Request $request){
+
+
+		$validator = Validator::make($request->all(), [
+			'g-recaptcha-response' => 'required|recaptcha',
+        ]);
+
+        if ($validator->fails()) {
+	        Session::flash('chk_msg', 'Warning! Something went wrong. Try again later.'); 
+            return redirect(route('vote'))->withErrors($validator, 'chk_msg');
+        }
+
+
+
 		$location = GeoIP::getLocation( );
 	    date_default_timezone_set("Asia/Kolkata");
 

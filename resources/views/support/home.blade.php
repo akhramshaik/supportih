@@ -40,7 +40,10 @@
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/transitions.css">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/animate.css">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/scrollbar.css">
+               <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jquery-library.js"></script>
+               <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/bootstrap.min.js"></script>
                <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+               <script src='https://www.google.com/recaptcha/api.js'></script>
             </head>
             <body class="tg-hometwo">
                <!--[if lt IE 8]>

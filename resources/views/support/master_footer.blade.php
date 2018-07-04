@@ -10,15 +10,16 @@
    </div>
 </footer>
 </div>
-<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jquery-library.js"></script>
-<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/bootstrap.min.js"></script>
+
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jgallery.min.js"></script>
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/scrollbar.min.js"></script>
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/owl.carousel.min.js"></script>
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/main.js"></script>
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/jquery.pogo-slider.js"></script>
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/canvasjs.min.js"></script>
+<script src="https://s3.amazonaws.com/indian-humanists-bucket/js/YouTubePopUp.jquery.js"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afaf13d6327f847"></script>
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121836963-1"></script>
 
