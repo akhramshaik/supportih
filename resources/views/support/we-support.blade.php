@@ -10,7 +10,7 @@
                   <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-10 col-lg-push-2 col-lg-8">
                      <div class="tg-slidercontent">
                         <div class="tg-description">
-                           <p> Democracy needs Dialogue not Dogma - 
+                           <p> Democracy needs Dialogue, not Dogma; Reason, not Ritual - 
                               <a href="{{ route('about') }}">Babu Gogineni</a>
                            </p>
                         </div>
