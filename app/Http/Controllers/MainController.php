@@ -30,14 +30,14 @@ class MainController extends Controller
 	}
 
 
-	public function encrchk(){
-	   $voteCount = Support::get();
+	// public function encrchk(){
+	//    $voteCount = Support::get();
 
-	   foreach ($voteCount as $key => $value) {
-	   	echo $this->dec_enc('decrypt', $value->userEmail) . "<br/>";
-	   	echo $this->dec_enc('decrypt', $value->userMobile) . "<br/>";
-	   }
-	}
+	//    foreach ($voteCount as $key => $value) {
+	//    	echo $this->dec_enc('decrypt', $value->userEmail) . "<br/>";
+	//    	echo $this->dec_enc('decrypt', $value->userMobile) . "<br/>";
+	//    }
+	// }
 
 	public function wesupport(){
 		$location = GeoIP::getLocation( );
@@ -90,7 +90,7 @@ class MainController extends Controller
 	    	$request['message'] = 'Message';
 	    }
 
-		$arrayData = ['userName' => $request['fullname'], 'userOccupation' => $request['occupation'], 'userEmail' => $this->dec_enc('encrypt', $request['emailid']), 'userMobile' => $this->dec_enc('encrypt',$request['phone']), 'userMsg' => $request['message'], 'userIp' => $location['ip'], 'userCity' => $location['city'],  'userPincode' => $location['postal_code'], 'userState' => $location['state_name'],'userCountry' => $location['country'], 'userTimestamp' => date("Y-M-d h:i:s A") ];
+		$arrayData = ['userName' => $this->dec_enc('encrypt',$request['fullname']), 'userOccupation' => $this->dec_enc('encrypt',$request['occupation']), 'userEmail' => $this->dec_enc('encrypt', $request['emailid']), 'userMobile' => $this->dec_enc('encrypt',$request['phone']), 'userMsg' => $request['message'], 'userIp' => $location['ip'], 'userCity' => $location['city'],  'userPincode' => $location['postal_code'], 'userState' => $location['state_name'],'userCountry' => $location['country'], 'userTimestamp' => date("Y-M-d h:i:s A") ];
 	    $findUser = Support::where('userEmail', $this->dec_enc('encrypt',$request['emailid']))->orWhere('userMobile', $this->dec_enc('encrypt',$request['phone']))->count();
 
 	    if($findUser >= 1){
