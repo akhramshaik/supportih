@@ -20,6 +20,17 @@
 <script src="https://s3.amazonaws.com/indian-humanists-bucket/js/canvasjs.min.js"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afaf13d6327f847"></script>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121836963-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121836963-1');
+</script>
+
+
 <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -29,7 +40,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-  
+
 
 @if(Session::has('msg_ok'))
 <script type="text/javascript">
