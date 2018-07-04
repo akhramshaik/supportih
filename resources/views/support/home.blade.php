@@ -12,11 +12,21 @@
          <html class="no-js" lang="zxx">
             <!--<![endif]-->
             <head>
+
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-               <title>I Support Babu Gogineni - Indian Humanists </title>
+               <title>I Support Babu Gogineni - Indian Humanists</title>
                <meta name="description" content="Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward.">
                <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+               <meta property="og:url"           content="https://www.indianhumanists.org/we-support-babu-gogineni" />
+               <meta property="og:type"          content="website" />
+               <meta property="og:title"         content="I Support Babu Gogineni - Indian Humanists" />
+               <meta property="og:description"   content="Protecting our intellectuals is not an option, it is fundamental to the progress of our society! The ongoing attack on international Humanist and Human Rights activist Babu Gogineni warrants for the strongest condemnation from all sections of our society and your voice is what we need to take this movement forward." />
+               <meta property="og:image"         content="https://s3.amazonaws.com/indian-humanists-bucket/support_babu_gogineni_banner.jpg" />
+               <meta name="google-site-verification" content="4ywCg1gMpp-F81vZmvm6wpH0n9JKhZzJra7QdkUbnjQ" />
+
+
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
                <link rel="icon" href="images/favicon.ico" type="image/x-icon">
                <link rel="stylesheet" href="https://s3.amazonaws.com/indian-humanists-bucket/css/bootstrap.min.css">
