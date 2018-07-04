@@ -55,7 +55,7 @@
                               <div class="modal-body" style="padding-top: 0px;">
                                  <center>
                                     <i class="fa fa-smile-o fa-4x" style="color: #4CAF50" aria-hidden="true"></i>
-                                    <p>Hey.. This Email or Mobile is already used for supporting Babu Gogineni.</p>
+                                    <p>Hey... This Email or Mobile is already used for supporting Babu Gogineni.</p>
                                  </center>
                                  <center>
                                     <h3>Share this initiative with your friends.</h3>
