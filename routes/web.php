@@ -20,3 +20,7 @@ Route::get('/about-babu-gogineni', ['as'=>'about', 'uses'=>'MainController@about
 Route::get('/faq-about-babu-gogineni', ['as'=>'faq', 'uses'=>'MainController@faq']);
 Route::get('/babu-gogineni-in-television-media', ['as'=>'television', 'uses'=>'MainController@television']);
 Route::post('/submit-vote', ['as'=>'voteprocess', 'uses' => 'MainController@voteprocess']); 
+
+Route::get('/make-it-100', ['as'=>'100', 'uses'=>'MainController@v100']);
+
+// Route::get('/babu-gogineni-in-television-media', ['as'=>'television', 'uses'=>'MainController@television']);
