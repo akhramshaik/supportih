@@ -26,7 +26,7 @@
                   <div class="dropdown tg-themedropdown">
                      <a id="tg-btnminicart" class="tg-btndropdown tg-btnminicart" href="javascript:void(0);" data-toggle="dropdown"><span class=""></span></a>
                   </div>
-                  <a class="tg-btn tg-btnactive bbb " href="{{ route('vote') }}"><span class="blinkme">Click to vote <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+                  <a class="tg-btn tg-btnactive bbb" style="margin: 10px -4px;" href="{{ route('vote') }}"><span class="blinkme">Click to Support <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
                   </a>
                </div>
             </div>

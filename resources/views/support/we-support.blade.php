@@ -46,13 +46,15 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-push-2 col-md-8 col-lg-push-2 col-lg-8">
                <div class="tg-sectionheadvtwo tg-colorwhite text-center">
+
                   <div class="tg-sectiontitle">
                      <h2>Your Vote is <span> Your Voice</span></h2>
                   </div>
                   <div class="tg-description">
-                     <p>Let us put an end to the assumption that we are only a few. Make your voice heard.
+                     <p>Let us put an end to the assumption that we are only a few. Make your voice heard and help us reach more. Please sign the petition by clicking support button below and share it with your friends.
                      </p>
                   </div>
+
                </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-push-2 col-lg-8 col-lg-push-2">
@@ -61,6 +63,8 @@
                   <ul class="tg-graphinfo">
                      <li class="tg-administration"><span>2,00,000 Our Target</span></li>
                      <li class="tg-spendcauses"><span> {{ $voteCount }} Supported</span></li>
+                     <a class="tg-btn tg-btnactive bbb " href="{{ route('vote') }}"><span class="blinkme">Click to Support <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+                  </a>
                   </ul>
                </div>
             </div>

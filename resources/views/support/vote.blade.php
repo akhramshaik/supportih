@@ -55,7 +55,7 @@
                               <div class="modal-body" style="padding-top: 0px;">
                                  <center>
                                     <i class="fa fa-smile-o fa-4x" style="color: #4CAF50" aria-hidden="true"></i>
-                                    <p>Hay.. This Email or Mobile is already used for supporting Babu Gogineni.</p>
+                                    <p>Hey... This Email or Mobile is already used for supporting Babu Gogineni.</p>
                                  </center>
                                  <center>
                                     <h3>Share this initiative with your friends.</h3>
@@ -77,7 +77,7 @@
                               <div class="tg-steptitle">
                                  <p style="margin: 0 0 12px;">“It is the responsibility of intellectuals to speak the truth and expose lies.” - Noam Chomsky </p>
                                  <p style="margin: 0 0 12px;">Freedom of Thought is the bedrock of Democracy! Let us preserve our rich and wondrous history of the Indian culture in achieving progress through discussion, debate and acceptance of differing ideas.</p>
-                                 <p style="margin: 0 0 12px;">“I sign this petition to express my anguish against the disinformation and on-going threats on Babu Gogineni and other light-bearers of Democracy and Free Speech in this country. I sincerely believe that advancement of our society depends on scientific temper and open-mindedness.</p>
+                                 <p style="margin: 0 0 12px;">"I sign this petition to express my anguish against the propagation of disinformation and bigotry targeting Babu Gogineni and other torchbearers of Free Speech and Democracy in this country. I sincerely believe that advancement of our Indian society depends on scientific temper, the spirit of inquiry and open-mindedness; I stand up for the safety and liberty of our Intellectuals and Social Reformers."</p>
                               </div>
                               <div class="tg-fieldgroup">
                                  <div class="form-group">
@@ -104,7 +104,7 @@
                               <input type="hidden" id="csrf-token" value="{{csrf_token()}}" name="_token">
                               <button class="tg-btn" type="submit">Submit</button>
                            </div>
-                           <p style="color: #e87e7e;font-size: 10px;"> * Information collected here is purely for a cause and not for any commertial use. This is an initiative of Babu Gogineni Facebook Group and no where in direct relation with Babu Gogineni. This information is seccured and safe using encrypted algorithms under high secured environmnet.</p>
+                           <p style="color: #e87e7e;font-size: 10px;"> *Information collected here is purely for the above-mentioned "Signature and Support Campaign" and will not be used for any commercial use. This is an initiative taken by Babu Gogineni Facebook Group and is not directly affiliated to Babu Gogineni. The information is secured using encrypted algorithms under highly-secured environment.</p>
                         </fieldset>
                      </form>
                   </div>
