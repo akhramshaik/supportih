@@ -22,6 +22,6 @@ Route::get('/babu-gogineni-in-television-media', ['as'=>'television', 'uses'=>'M
 Route::post('/submit-vote', ['as'=>'voteprocess', 'uses' => 'MainController@voteprocess']); 
 
 
-Route::get('/make-it-100', ['as'=>'100', 'uses'=>'MainController@v100']);
+Route::get('/make-it-more', ['as'=>'100', 'uses'=>'MainController@v100']);
 // Route::get('/encrchk', ['as'=>'encrchk', 'uses'=>'MainController@encrchk']);
 

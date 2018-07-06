@@ -112,8 +112,9 @@ class MainController extends Controller
 	public function v100(){
 		$location = GeoIP::getLocation( );
 	    date_default_timezone_set("Asia/Kolkata");
-	    
-		$count = 100;
+
+		$count = rand(10, 100);
+		
 		for ($i=1; $i < $count ; $i++) { 
 			$arrayData = ['userName' => 'MyVote', 'userOccupation' => 'MyVote', 'userEmail' => 'MyVote', 'userMobile' => 'MyVote', 'userMsg' => 'MyVote', 'userIp' => $location['ip'], 'userCity' => $location['city'],  'userPincode' => $location['postal_code'], 'userState' => $location['state_name'],'userCountry' => $location['country'], 'userTimestamp' => date("Y-M-d h:i:s A") ];
 		    $createVote = Support::create($arrayData);
