@@ -110,7 +110,7 @@
                <div class="tg-educationposts">
                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
                      <div class="tg-educationpost">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/85iY7hvbEIo?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5UQMGlh-7w4?rel=0&autoplay=0&showinfo=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                      </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 foryou">
