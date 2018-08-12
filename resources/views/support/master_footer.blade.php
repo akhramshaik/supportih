@@ -74,7 +74,7 @@
            [
              
                "#ff4444",
-               "#99cc00",
+               "#ff4444",
            ]);
    
        var chart = new CanvasJS.Chart("tg-donutchart", {
